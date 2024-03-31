@@ -24,13 +24,11 @@ html, body {
     color: #f9faf8;
 }
 
-.helper {
+.hero-section {
   background-color: #1f2937;
 }
 
 .top-box {
-  
-    flex-grow: 1; /* Let it grow to fill the available space */
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10px;
@@ -38,7 +36,7 @@ html, body {
 
 .box-2 {
     border: solid blue;
-    flex-grow: 1; /* Let it grow to fill the available space */
+
 }
 
 .box-3 {
@@ -109,15 +107,17 @@ html, body {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin: 0 0 5px 0;
+
 }
 
 
 
 .image-place-holder{
     background-color: gray;
-    height: 300px;
+    height: 200px;
     text-align: center;
-    line-height: 300px;
+    line-height: 200px;
     vertical-align: middle;
 }
 
@@ -132,3 +132,42 @@ html, body {
 {
     
 }
+
+
+
+
+.information-section-cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+}
+
+.information-block{
+    height: 150px;
+    
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+.information-text{
+    text-align: center;
+}
+
+.information-section-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin: 30px;
+}
+
