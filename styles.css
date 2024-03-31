@@ -1,0 +1,134 @@
+html, body {
+    height: 100%; /* Make sure html and body fill the entire viewport */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font or fallback to sans-serif */
+    margin: 0;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Set min-height instead of height */
+}
+
+.header-logo {
+    margin: 0;
+}
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.helper {
+  background-color: #1f2937;
+}
+
+.top-box {
+  
+    flex-grow: 1; /* Let it grow to fill the available space */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+.box-2 {
+    border: solid blue;
+    flex-grow: 1; /* Let it grow to fill the available space */
+}
+
+.box-3 {
+    border: solid blue;
+    flex-grow: 1; /* Let it grow to fill the available space */
+}
+
+.box-4 {
+    border: solid blue;
+    flex-grow: 1; /* Let it grow to fill the available space */
+}
+
+.box-5 {
+    border: solid blue;
+    flex-grow: 1; /* Let it grow to fill the available space */
+}
+
+
+
+.top-bar {
+    display: flex;
+    flex: 1;
+    margin-bottom: 50px;
+}
+.logo-container{
+   
+    flex:1 ;    
+}
+
+.navbar-container{
+    flex: 1;
+}
+
+
+.top-box-content {
+    display: flex;
+}
+.top-box-content-left {
+    flex:1;
+   
+    margin-left: 0;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top-box-content-right{
+    flex:1;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    margin-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.hero-main{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+
+
+.image-place-holder{
+    background-color: gray;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    vertical-align: middle;
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.link
+{
+    
+}
