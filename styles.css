@@ -35,12 +35,12 @@ html, body {
 }
 
 .box-2 {
-    border: solid blue;
+   
 
 }
 
 .box-3 {
-    border: solid blue;
+    
     flex-grow: 1; /* Let it grow to fill the available space */
 }
 
@@ -171,3 +171,29 @@ html, body {
     margin: 30px;
 }
 
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+.quote-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20%;
+}
+
+.call-to-action {
+    display: flex;
+}
