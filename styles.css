@@ -34,27 +34,6 @@ html, body {
     margin-bottom: 10px;
 }
 
-.box-2 {
-   
-
-}
-
-.box-3 {
-    
-    flex-grow: 1; /* Let it grow to fill the available space */
-}
-
-.box-4 {
-    border: solid blue;
-    flex-grow: 1; /* Let it grow to fill the available space */
-}
-
-.box-5 {
-    border: solid blue;
-    flex-grow: 1; /* Let it grow to fill the available space */
-}
-
-
 
 .top-bar {
     display: flex;
@@ -194,6 +173,28 @@ html, body {
     margin-right: 20%;
 }
 
+
+.call-to-action-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .call-to-action {
     display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+.button-call-to-action {
+    border: solid white;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
